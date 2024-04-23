@@ -12,5 +12,5 @@
 
 - To test this use command 
 
- $ for in in {1..10} ; do echo "the working server is `curl -s http://127.0.0.1:90/`"; done
+for i in {1..10} ; do echo "the working server is $(curl -s http://127.0.0.1:80/)"; done
 
